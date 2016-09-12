@@ -1,0 +1,10 @@
+import random
+
+def append_number(name):
+	"""method to append the random number between 6-15 to name"""
+	
+	# generating random number
+	number = random.randint(6, 15)
+	return "{name} {number}".format(name=name, number=number)
+
+print append_number("Makarand")
